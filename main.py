@@ -58,7 +58,7 @@ def main():
             messages.append(d)
             
             def text_to_speech(text):
-                engine = pyttsx3.init()
+                engine = pyttsx3.init() 
                 engine.say(text)
                 engine.runAndWait()
 
